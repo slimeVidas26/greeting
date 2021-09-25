@@ -30,6 +30,4 @@ const server = new ApolloServer({typeDefs , resolvers})
 
 
 server.listen({port : 9000})
-.then((serverInfo)=>{
-    console.log(serverInfo.url)
-})
+.then(({url})=> console.log(url))
