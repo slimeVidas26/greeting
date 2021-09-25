@@ -1,0 +1,26 @@
+{
+  "name": "greeting",
+  "version": "1.0.0",
+  "description": "* create git repo and clone to greeting\r *npm init -y",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js",
+    "server" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slimeVidas26/greeting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slimeVidas26/greeting/issues"
+  },
+  "homepage": "https://github.com/slimeVidas26/greeting#readme",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.0"
+  }
+}
